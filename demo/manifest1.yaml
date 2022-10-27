@@ -9,6 +9,6 @@ spec:
     ports:
     - containerPort: 80
   - name: animals
-    image: supergiantkir/animals:bear
+    image: yanivomc/spring-music:latest
     ports:
-    - containerPort: 80
+    - containerPort: 8080
