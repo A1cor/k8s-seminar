@@ -5,8 +5,9 @@ metadata:
 spec:
   strategy:
     type: RollingUpdate
-    maxSurge: 100%
-    maxUnavailable: 0
+    rollingUpdate:
+      maxSurge: 100%
+      maxUnavailable: 0
   selector:
     matchLabels:
       app: nginx
