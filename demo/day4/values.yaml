@@ -1,0 +1,5 @@
+type: LoadBalancer
+replicas: 1
+containers:
+  name: spring-music
+  image: yanivomc/spring-music:latest
